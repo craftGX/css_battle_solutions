@@ -1,0 +1,36 @@
+<div></div>
+<style>
+  body{
+    background:#1A4341;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius:0 100px 0 0;
+    position:fixed;
+    top:50px;
+    left:200px;
+  }
+  div::before,div::after{
+    position:absolute;
+    content:"";
+  }
+  div::before{
+    width:150px;
+    height:75px;
+    border-radius:75px 75px 0 0;
+    transform:rotate(-90deg);
+    right:62px;
+    top:64px;
+    background:#998235;
+  }
+  div::after{
+    width:30px;
+    height:30px;
+    background:#0B2429;
+    border-radius:50%;
+    left:-45px;
+    top:55px;
+  }
+</style>
