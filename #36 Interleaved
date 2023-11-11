@@ -1,0 +1,27 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body{
+    background-color:#1A4341;
+    display:flex;
+    justify-content:space-around;
+    margin:15px;
+  }
+  div {
+    width: 50px;
+    height: 250px;
+    background: #998235;
+    border-radius:0 0 50px 50px;
+    position:relative;
+    top:-65px;
+  }
+  div:nth-child(odd){
+    background-color:#F3AC3C;
+    top:85px;
+    border-radius:50px 50px 0 0;
+    
+  }
+</style>
