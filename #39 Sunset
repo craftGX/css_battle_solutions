@@ -1,0 +1,26 @@
+<div class="a"></div>
+<div class="b"></div>
+<style>
+  body{
+    background:#1A4341;
+  }
+  .a{
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(to bottom, transparent 0% 20%,#1A4341 20% 28%, #F3AC3C 28% 36%, #1A4341 36% 44%, #F3AC3C 44% 52%, #1A4341 52% 60%, #F3AC3C 60% 68%,#1A4341 68% 76%,transparent 76% 100%);
+    position:fixed;
+    border-radius:50%;
+    top:30px;
+    left:75px;
+  }*
+  .b{
+    width:200px;
+    height:200px;
+    position:fixed;
+    background:#998235;
+    border-radius:50%;
+    top:50px;
+    left:100px;
+    z-index:-10; //passe en dessous de la div a
+  }
+</style>
