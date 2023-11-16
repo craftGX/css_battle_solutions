@@ -1,0 +1,15 @@
+<div></div>
+<style>
+  body{
+    background:linear-gradient(to bottom,#D25B70 0% 50%,#6CB3A9 50% 100%)
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    position:fixed;
+    top:50px;
+    left:100px;
+    border-radius:50%;
+    background:linear-gradient(to bottom,#F6DF96 0% 50%,#6CB3A9 50% 57%,#F6DF96 57% 62%,#6CB3A9 62% 69%,#F6DF96 69% 74%,#6CB3A9 74% 81%,#F6DF96 81% 86%,#6CB3A9 86% 93%,#F6DF96 93% 100%);
+  }
+</style>
