@@ -1,0 +1,36 @@
+<div class="a"></div>
+<div class="b"></div>
+<style>
+  body{
+    background:#998235;
+  }
+  .a{
+    width: 75px;
+    height: 75px;
+    position:fixed;
+    border-radius:50px 50px 0px 50px;
+    background: #FFFFFF;
+    top:25%;
+    left:31%;
+    -webkit-box-reflect:right;
+  }
+  .b{
+    width:150px;
+    height:75px;
+    background:linear-gradient(to right,#191919 0% 18%,#EFF33C 18% 25%,#191919 25% 41%,#EFF33C 41% 48%,#191919 48% 64%,#EFF33C 64% 100%);
+    border-radius:50px;
+    position:fixed;
+    top:50%;
+    left:31%;
+  }
+  .b::before{
+    content:"";
+    position:absolute;
+    background:#191919;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    top:20px;
+    left:115px;
+  }
+</style>
