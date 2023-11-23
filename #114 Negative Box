@@ -1,0 +1,28 @@
+<div></div>
+<style>
+  body{
+    background:#172D2C;
+  }
+  div {
+    width: 175px;
+    height: 125px;
+    background: #E9AF53;
+    position:fixed;
+    top:120px;
+    left:25px;
+    transform: skew(0deg, 20deg);
+  }
+  div::before{
+    content:"";
+    position:absolute;
+    width: 0;
+    height: 0;
+    top:-130px;
+    left:175px;
+    border-top: 110px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 180px solid #E9AF53;
+    transform:rotate(180deg);
+  }
+</style>
+//96% win
