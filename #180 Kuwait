@@ -1,0 +1,18 @@
+<div></div>
+<style>
+  body{
+    background:linear-gradient(to bottom ,#13AA4B 0% 33%,#FFFFFF 33% 66%,#EC1E25 66% 100%)
+  }
+  div {
+      width: 100px;
+      height: 0;
+    position:fixed;
+      border-bottom: 110px solid #000000;
+      border-left: 110px solid transparent;
+      border-right: 110px solid transparent;
+      transform: rotate(90deg);
+    top:95px;
+    left:-110px;
+  }
+  
+</style>
