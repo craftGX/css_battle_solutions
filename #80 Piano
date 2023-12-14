@@ -1,0 +1,76 @@
+<div class="a">
+  <div class="blanc">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div class="n1">
+    <div></div>
+    <div></div>
+  </div>
+  <div class="n2">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<style>
+  body{
+    background:#998235;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:-1px;
+  }
+  .a{
+    width: 180px;
+    height: 100px;
+    background: #191919;
+    border-radius:10px;
+  }
+  .a .blanc{
+    height:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    margin:-5px 1px;
+  }
+  .a .blanc div{
+    width:20px;
+    height:70px;
+    background:#FFFFFF;
+    border-radius:5px;
+  }
+  .a .n1{
+    width:28%;
+    position:relative;
+    top:-70px;
+    left:15px;
+    display:flex;
+    justify-content:space-around;
+    
+  }
+  .a .n1 div{
+    width:15px;
+    height:40px;
+    background:#191919;
+  }
+  .a .n2{
+    width:43%;
+    position:relative;
+    top:-110px;
+    left:90px;
+    display:flex;
+    justify-content:space-around;
+  }
+  .a .n2 div{
+    width:15px;
+    height:40px;
+    background:#191919;
+  }
+</style>
